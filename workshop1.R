@@ -4,6 +4,7 @@
 #     date: 8/28/23"""
 
 
+
 ## Getting to know the basics 
 
 # R is a programming language that has become the standard in Ecology due to its flexibility and open source nature. R can be used from simple math to complex models and is very useful for generating figures. R, like all computer languages, uses a specific syntax to run commands that it is programmed to do. In other words, R will only do what it is commanded to do, and therefore, many common errors are due to errors in syntax (e.g. misspellings, missed commas, or unclosed brackets). 
