@@ -66,7 +66,7 @@ if_else(x > 10,
         'x < 10')
 
 
-case_when(x < 6 ~ 'x < 6',
+case_when(x <  6 ~ 'x < 6',
           between(x, 6, 15) ~ '6 < x < 15',
           x > 15 ~ 'x > 15')
 
