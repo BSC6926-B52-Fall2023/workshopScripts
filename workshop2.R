@@ -62,7 +62,7 @@ c
 # first row
 mtcars[1,]
 
-# 2nd row of first column
+# Second row and first column
 mtcars[2,1]
 ## [1] 21
 # can call specific columns (called as a vector)
