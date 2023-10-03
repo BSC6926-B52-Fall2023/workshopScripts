@@ -165,9 +165,9 @@ rbinom(5, size = 2, prob = 0.2)
 rnorm(5, mean = 0, sd = 1)
 
 set.seed(14)
-rnorm(5, mean = 0, sd = 1)
+rnorm(7, mean = 0, sd = 1)
 
-set.seed(14)
+set.seed(16)
 rnorm(5, mean = 0, sd = 1)
 
 
@@ -233,7 +233,7 @@ dplyr::sample_n(df, size = 10, replace = T, weight = prob)
 r = c(-0.03, -0.02, 0, 0.02, 0.03)
 
 N_0 = 10
-years = 100 #hundred time steps
+years= 100 #hundred time steps
 pop = tibble(time = rep(0:years, times = length(r)),
               Nt = NA, growth = rep(r, each = years+1))
 pop
@@ -262,14 +262,14 @@ pop
 library(ggpubr)
 
 a = ggplot(pop, aes(x = time, y = Nt, color = as.factor(growth))) +
-  geom_line(size = 1) +
+  geom_line(linewidth = 1) +
   labs(x = 'Time', y = expression(italic(N[t])),
        color = expression(italic(r)),
        title = 'Exponential')+
   theme_bw()
 
 b = ggplot(pop, aes(x = time, y = ln.Nt, color = as.factor(growth))) +
-  geom_line(size = 1) +
+  geom_line(linewidth = 1) +
   labs(x = 'Time', y = expression('ln('~italic(N[t])~')'),
        color = expression(italic(r)),
        title = 'Semilogarithmic')+
