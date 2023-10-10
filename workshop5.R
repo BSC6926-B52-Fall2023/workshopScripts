@@ -1,4 +1,4 @@
-#' """ Workshop 4: Density dependent models
+#' """ Workshop 5: Density dependent models
 #'     @author: BSC 6926 B53
 #'     date: 10/10/2023"""
 
